@@ -1,27 +1,25 @@
-#include "B1.h"
+#include"DonThuc.h"
 int main()
 {
-    Complex A;
-    A.input();
-    A.output();
-    Complex B;
-    B.input();
-    B.output();
-    cout << "Addition: ";
-    A.addition(B);
-    cout << "\nSubtraction: ";
-    A.subtraction(B);
-    cout << "\nMultiplication: ";
-    A.multiplication(B);
-    cout << "\nDivision: ";
-    A.division(B);
-
-    cout << "Real part: " << A.getReal() << "\n";
-    cout << "Imaginary part: " << A.getImaginary() << "\n";
-    cout << "Set imaginary part: ";
-    A.setImaginary();
-    cout << "Set real part: ";
-    A.setReal();
-    cout << "Real part: " << A.getReal() << "\n";
-    cout << "Imaginary part: " << A.getImaginary() << "\n";
+	DonThuc A;
+	A.input();
+	A.display();
+	/*A.compute(2);
+	A.daoHam().compute(2);
+	A.nguyenHam().compute(2);*/
+	/*DonThuc B;
+	B.input();
+	B.display();
+	A.Add(B).display();
+	A.Sub(B).display();
+	A.Mul(B).display();
+	A.Div(B).display();*/
+	/*cout << "He so: " << A.getHeSo() << "\n";
+	cout << "So mu: " << A.getSoMu() << "\n";
+	cout << "Nhap he so:";
+	A.setHeSo();
+	cout << "Nhap so mu:";
+	A.setSoMu();
+	cout << "He so: " << A.getHeSo() << "\n";
+	cout << "So mu: " << A.getSoMu() << "\n";*/
 }
